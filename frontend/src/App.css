@@ -2,4 +2,16 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+  
+}
+
+.app-container{
+   display: grid;
+   grid-template-columns: 7.5% 92.5%;
+   border: 1px solid black;
+   height: 88vh;
+}
+
+.home-container{
+   /* border: 1px solid goldenrod; */
 }

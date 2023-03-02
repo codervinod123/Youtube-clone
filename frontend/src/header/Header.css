@@ -1,10 +1,13 @@
 .header_container{
-    height: 10vh;
+    height: 12vh;
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    background: black;
+    color: white;
+    /* position: fixed; */
 }
 
 .logo-menu{
@@ -15,13 +18,18 @@
     padding: 10px;
     border-radius: 2px;
     gap: 20px;
+    
+    
 }
 
 .logo-menu>svg{
-    font-size: 23px;
+    font-size: 35px; 
+    border-radius: 50%;
+   padding: 7px;
 }
 .logo-menu>svg:hover{
     cursor: pointer;
+    background: rgb(148, 149, 148);
 }
 
 .logo-name{
@@ -63,14 +71,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 0.3px solid white; */
     border-radius: 18px;
+    background: rgb(67, 64, 64);
+    
 }
 .searchbar>form>input{
-    height: 35px;
+    height: 40px;
    padding: 8px;
    width: 90%;
    border: none;
+   background: rgb(67, 64, 64);
+   border-radius: 18px;
    
 }
 
@@ -78,11 +90,18 @@
 .searchbar>form>input:focus{
     outline: none;
 }
+
+.searchbar>form>input::placeholder{
+    color: white;
+}
+
+
 .searchbar>form>button{
     
     font-size: 20px;
     border: none;
     background: transparent;
+    color: white;
 }
 
 .searchbar>form>button:hover{
@@ -105,9 +124,10 @@
     height: 35px;
     width: 35px;
     border-radius: 50%;
+    transition: .3s ease-in-out;
 }
 .profile-menu>div:hover{
-    background: green;
+    background: rgb(148, 149, 148);
     cursor: pointer;
 }
 
