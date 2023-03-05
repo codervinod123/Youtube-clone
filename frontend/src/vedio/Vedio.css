@@ -1,0 +1,21 @@
+.vedio-container{
+    width: 270px;
+    border: 1px solid red; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.vedio-poster{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.vedio-poster>img{
+  width: 200px;
+}
